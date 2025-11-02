@@ -1,0 +1,156 @@
+.footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 35px 70px 24px 70px;
+
+  .links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 60px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid var(--bg-color-black2-10-alpha);
+    ;
+
+    .main {
+      width: 350px;
+
+      img {
+        width: 65px;
+        margin-bottom: 26px;
+      }
+
+      p {
+        line-height: 26px;
+        color: var(--color-black-50-alpha);
+      }
+    }
+
+    .sections {
+      display: flex;
+      gap: 60px;
+
+      .section {
+
+        h3 {
+          font-weight: 700;
+          font-size: 20px;
+          color: var(--color-black);
+          margin-bottom: 20px;
+        }
+
+        ul {
+          list-style: none;
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+
+          li {
+            a {
+              text-decoration: none;
+              color: var(--color-black);
+            }
+          }
+        }
+      }
+
+      .section {
+        .socialIcons {
+          margin-top: 16px;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 16px;
+
+          a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 14px;
+            border-radius: 50%;
+            background-color: var(--color-primary);
+
+            img {
+              width: 24px;
+              height: 24px;
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .bottom {
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+      font-size: 14px;
+      color: var(--color-black);
+    }
+
+    div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+
+      a {
+        text-decoration: none;
+        color: var(--color-black);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 0 20px 27px 20px;
+
+    .links {
+      flex-direction: column;
+      gap: 32px;
+      padding-bottom: 35px;
+      border-bottom: 1px solid var(--bg-color-black2-10-alpha);
+
+      .main {
+        width: 100%;
+
+        img {
+          width: 44px;
+          margin-bottom: 26px;
+        }
+
+        p {
+          line-height: 16px;
+        }
+      }
+
+      .sections {
+        flex-direction: column;
+        align-items: start;
+        gap: 30px;
+      }
+    }
+
+    .bottom {
+      padding-top: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 16px;
+
+      p {
+        font-size: 16px;
+      }
+
+      div {
+        a {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

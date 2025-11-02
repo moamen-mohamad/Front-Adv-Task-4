@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #025595;
+    --color-primary-5-alpha: rgba(2, 85, 149, 0.05);
+    --color-black: #222222;
+    --bg-primary: #EFF8FF;
+    --color-black-50-alpha: #22222280;
+    --color-black-80-alpha: #00000080;
+    --bg-color-black-40-alpha: #22222266;
+    --bg-color-black-10-alpha: #0000001A;
+    --bg-color-black2-10-alpha: #2222221A;
+    --color-white: #FFFFFF;
+    --bg-color-white-15-alpha: #FFFFFF26;
+    --bg-color-white-80-alpha: #FFFFFFCC;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}

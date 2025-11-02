@@ -1,0 +1,112 @@
+.hero {
+    height: 100vh;
+    background: var(--bg-primary) url(/assets/images/hero-bg.png) no-repeat right / contain;
+
+    h1 {
+        max-width: 549px;
+        padding-top: 122px;
+        margin-left: 70px;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 80px;
+        color: var(--color-black);
+    }
+
+    p {
+        max-width: 432px;
+        padding-top: 20px;
+        margin-left: 70px;
+        font-size: 16px;
+        line-height: 26px;
+        color: var(--color-black-50-alpha);
+    }
+
+    .filtter {
+        max-width: 868px;
+        margin-top: 50px;
+        margin-left: 70px;
+        padding: 20px 58px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background-color: var(--bg-color-white-80-alpha);
+        backdrop-filter: blur(16px);
+        border-radius: 16px;
+
+        .box {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 20px;
+
+            img {
+                padding: 15px;
+                background-color: var(--color-primary-5-alpha);
+                border-radius: 50%;
+            }
+
+            div {
+                h4 {
+                    margin-bottom: 10px;
+                    font-weight: 500;
+                    font-size: 16px;
+                    color: var(--color-black);
+                }
+
+                p {
+                    padding: 0;
+                    margin: 0;
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: var(--color-black-50-alpha);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .hero {
+        min-height: 100vh;
+        background-position: unset;
+        background-position: bottom;
+
+        h1 {
+            padding-top: 132px;
+            margin: 0 20px;
+            font-size: 35px;
+            line-height: 46px;
+        }
+
+        p {
+            margin: 0 20px;
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+        .filtter {
+            width: 100%;
+            margin-top: 35px;
+            margin-left: 0;
+            padding: 20px;
+            grid-template-columns: repeat(1, 1fr);
+            backdrop-filter: blur(16px);
+            border-radius: 0;
+            gap: 24px;
+
+            .box {
+                gap: 24px;
+
+                div {
+                    h4 {
+                        margin-bottom: 6px;
+
+                    }
+
+                    p {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}

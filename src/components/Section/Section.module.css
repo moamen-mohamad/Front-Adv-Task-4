@@ -1,0 +1,78 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 56px;
+
+    .headOfSection {
+        .header {
+            font-weight: 700;
+            font-size: 39px;
+            color: var(--color-black);
+            margin-bottom: 5px;
+        }
+
+        .paragraph {
+            font-size: 15px;
+            line-height: 26px;
+            color: var(--color-black-50-alpha);
+        }
+    }
+}
+
+.findDreamHome {
+    background: url("/assets/images/house-cover.jpg") no-repeat center / cover;
+    height: 380px;
+
+    .headOfSection {
+        width: 100%;
+        height: 100%;
+        background-color: var(--color-black-80-alpha);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 58px;
+
+        .header {
+            font-weight: 700;
+            font-size: 70px;
+            line-height: 56px;
+            color: var(--color-white);
+        }
+
+        .paragraph {
+            font-size: 30px;
+            line-height: 26px;
+            color: var(--color-white);
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .section {
+        gap: 42px;
+
+        .headOfSection {
+            .header {
+                font-size: 30px;
+            }
+        }
+    }
+
+    .findDreamHome {
+        .headOfSection {
+            gap: 15px;
+            padding: 0 11px;
+
+            .header {
+                font-size: 30px;
+            }
+
+            .paragraph {
+                font-size: 15px;
+            }
+        }
+    }
+}
