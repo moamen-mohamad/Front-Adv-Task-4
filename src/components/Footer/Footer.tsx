@@ -13,16 +13,16 @@ const Footer = () => {
     ]
 
     const socials = [
-        { name: "Facebook", icon: "/assets/images/facebook.svg", url: "#" },
-        { name: "Twitter", icon: "/assets/images/twitter.svg", url: "#" },
-        { name: "LinkedIn", icon: "/assets/images/linkedin.svg", url: "#" },
+        { name: "Facebook", icon: "/Front-Adv-Task-4/assets/images/facebook.svg", url: "#" },
+        { name: "Twitter", icon: "/Front-Adv-Task-4/assets/images/twitter.svg", url: "#" },
+        { name: "LinkedIn", icon: "/Front-Adv-Task-4/assets/images/linkedin.svg", url: "#" },
     ];
 
     return (
         <footer className={styles.footer}>
             <div className={styles.links}>
                 <div className={styles.main}>
-                    <img src="/assets/images/full-logo.svg" alt="Logo" className={styles.logo} />
+                    <img src="/Front-Adv-Task-4/assets/images/full-logo.svg" alt="Logo" className={styles.logo} />
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae sit est quisque.</p>
                 </div>
                 <div className={styles.sections}>

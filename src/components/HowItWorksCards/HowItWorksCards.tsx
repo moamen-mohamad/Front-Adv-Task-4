@@ -8,19 +8,19 @@ interface HowItWorksCard {
 const howItWorksCards: Array<HowItWorksCard> = [
     {
         id: 1,
-        iconPath: "/assets/images/home-1.svg",
+        iconPath: "/Front-Adv-Task-4/assets/images/home-1.svg",
         title: "Search Apartment",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae.",
     },
     {
         id: 2,
-        iconPath: "/assets/images/home-2.svg",
+        iconPath: "/Front-Adv-Task-4/assets/images/home-2.svg",
         title: "Select Apartment",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae.",
     },
     {
         id: 3,
-        iconPath: "/assets/images/home-3.svg",
+        iconPath: "/Front-Adv-Task-4/assets/images/home-3.svg",
         title: "Confirm Apartment",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae.",
     },

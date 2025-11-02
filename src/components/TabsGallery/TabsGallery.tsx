@@ -12,19 +12,19 @@ const TabsGallery = () => {
     const properties: Property[] = [
         {
             TabName: "Industrial Property",
-            images: ["/assets/images/Residential-1.jpg", "/assets/images/Residential-2.jpg", "/assets/images/Residential-3.jpg"],
+            images: ["/Front-Adv-Task-4/assets/images/Residential-1.jpg", "/Front-Adv-Task-4/assets/images/Residential-2.jpg", "/Front-Adv-Task-4/assets/images/Residential-3.jpg"],
         },
         {
             TabName: "Agriculture Property",
-            images: ["/assets/images/Residential-2.jpg", "/assets/images/Residential-3.jpg", "/assets/images/Residential-1.jpg"],
+            images: ["/Front-Adv-Task-4/assets/images/Residential-2.jpg", "/Front-Adv-Task-4/assets/images/Residential-3.jpg", "/Front-Adv-Task-4/assets/images/Residential-1.jpg"],
         },
         {
             TabName: "Commercial Property",
-            images: ["/assets/images/Residential-3.jpg", "/assets/images/Residential-1.jpg", "/assets/images/Residential-2.jpg"],
+            images: ["/Front-Adv-Task-4/assets/images/Residential-3.jpg", "/Front-Adv-Task-4/assets/images/Residential-1.jpg", "/Front-Adv-Task-4/assets/images/Residential-2.jpg"],
         },
         {
             TabName: "Residential Property",
-            images: ["/assets/images/Residential-1.jpg", "/assets/images/Residential-2.jpg", "/assets/images/Residential-3.jpg"],
+            images: ["/Front-Adv-Task-4/assets/images/Residential-1.jpg", "/Front-Adv-Task-4/assets/images/Residential-2.jpg", "/Front-Adv-Task-4/assets/images/Residential-3.jpg"],
         },
     ];
 
@@ -45,7 +45,6 @@ const TabsGallery = () => {
                 ))}
             </div>
 
-            {/* Images */}
             <div className={styles.gallery}>
                 {currentProperty?.images.map((src, Index) => (
                     <div key={Index}>

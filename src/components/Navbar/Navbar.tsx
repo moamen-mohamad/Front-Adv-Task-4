@@ -66,7 +66,7 @@ function Navbar({ logo, navLinks, loginPath }: NavbarProps) {
                 onClick={() => setIsOpen((prev) => !prev)}
             >
                 <img
-                    src={isOpen ? "/assets/images/close.svg" : "/assets/images/barse.svg"}
+                    src={isOpen ? "/Front-Adv-Task-4/assets/images/close.svg" : "/Front-Adv-Task-4/assets/images/barse.svg"}
                     alt={isOpen ? "Close menu" : "Open menu"}
                     className={styles.menuIconImg}
                 />

@@ -11,9 +11,9 @@ type FiltterInfo = {
 const Hero = () => {
 
     const filtterInfo: Array<FiltterInfo> = [
-        { id: 1, img: "/assets/images/location.svg", header: "Location", paragraph: "Ahmedabad, India" },
-        { id: 2, img: "/assets/images/dollar.svg", header: "Price", paragraph: "$1000 - $10,000" },
-        { id: 3, img: "/assets/images/house.svg", header: "Type of Property", paragraph: "Apartment" },
+        { id: 1, img: "/Front-Adv-Task-4/assets/images/location.svg", header: "Location", paragraph: "Ahmedabad, India" },
+        { id: 2, img: "/Front-Adv-Task-4/assets/images/dollar.svg", header: "Price", paragraph: "$1000 - $10,000" },
+        { id: 3, img: "/Front-Adv-Task-4/assets/images/house.svg", header: "Type of Property", paragraph: "Apartment" },
     ];
     return (
         <div className={styles.hero}>
