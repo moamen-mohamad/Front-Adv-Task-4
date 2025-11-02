@@ -13,9 +13,9 @@ function App() {
   ];
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Front-Adv-Task-4">
       <Navbar
-        logo="/assets/images/full-logo.png"
+        logo="/assets/images/full-logo.svg"
         navLinks={navLinks}
         loginPath="/login"
       />
